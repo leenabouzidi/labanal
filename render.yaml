@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: labanal-leena
+    runtime: docker
+    plan: free
+    healthCheckPath: /
